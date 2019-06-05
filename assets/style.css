@@ -23,13 +23,6 @@ h1{
     background: palevioletred;
     border: solid 1px black;
 }
-  #number-to-guess{
-    margin: 5px 5px 5px 20px;
-    border: solid 1px black;  
-    background: tan;
-      height: 150px;
-      width:300px;
-  }
   #wins-losses{
     margin: 5px 5px 5px 5px;
     border: solid 1px black;
@@ -44,4 +37,16 @@ h1{
     height:150px;
     width: 300px;
   }
-  
+  #computer-guess{
+    margin: 5px 5px 5px 20px;
+    border: solid 1px black;  
+    background: tan;
+    height: 150px;
+    width:300px;
+  }
+  #number-to-guess{ 
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    margin-left: 30%;
+  }
