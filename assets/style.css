@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: url(../assets/pictures/white-waves\ copy.png);
+  }
+h1{
+    text-align: center;
+    padding: 25px;
+    font-size: 28px;
+    width: 800px;
+    height: 75px;
+    background: peachpuff;
+    border: solid 1px black;
+}
+
+.directions{
+    text-align: left;
+    padding: 15px 15px 15px 15px;
+    line-height: 22px;
+    font-size: 18px;
+    width: 800px;
+    height: 200px;
+    background: palevioletred;
+    border: solid 1px black;
+}
+
+/* Container needed to position the button. Adjust the width as needed */
+.container {
+    background: pink;
+    /* position: relative; */
+    width: 500px;
+  }
+  
+  /* Make the image responsive */
+  .container img {
+    width: 15%;
+    height: auto;
+  }
+  
