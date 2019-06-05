@@ -1,4 +1,4 @@
-var wins=10;
+var wins;
 var losses;
 var totalScore;
 var computerNum;
@@ -20,8 +20,8 @@ var goldValue=Math.floor(Math.random() * 21) +16;
 
 
 // click a gem button
-// $("#win").text(wins);
-// for(var i=0;i<4;i++){
+// $("#crystal-mage").on("click", function() {
+// console.log(event);
 $("#crystal-image").append("<img src='assets/pictures/Screen Shot 2019-06-05 at 8.13.39 AM.png' height='125px'>");
 $("#crystal-image").append("<img src='assets/pictures/Screen Shot 2019-06-05 at 4.40.16 PM.png' height='125px'>");
 $("#crystal-image").append("<img src='assets/pictures/Screen Shot 2019-06-05 at 4.40.49 PM.png' height='125px'>");
@@ -29,17 +29,23 @@ $("#crystal-image").append("<img src='assets/pictures/Screen Shot 2019-06-05 at 
 // }
 
 // when the gem is clicked, its value is added to totalScore
+// totalScore = totalScore + (clicked gem value);
+//  $("#total-score").html(totalScore);
 // check if totalScore > < or = computerNum
 
-//  if totalScore === computerNum 
+// if(totalScore === computerNum){
 // alert "you win"
-//  wins are incremented
+// wins++;
+// $("#win").html(wins);
+// }
 
-//  if totalScore > computerNum
+// else if(totalScore > computerNum){
 // alert you lose
-//  losses are incremented
+// losses++;
+// $("#loss").html(losses);
+// }
 
-//  if totalScore < computerNum
-//  wait for new click
-
+// else(totalScore < computerNum){
+// wait for new click
+// }
 //  restart game after win/loss while keeping the wins and losses totals
