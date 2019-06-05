@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,44 +8,54 @@
     <title>Crystal Collector</title>
     <link rel="stylesheet" type="text/css" href="assets/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
+
 <body>
-        <h1>Crystal collector!</h1>
+    <h1>Crystal collector!</h1>
     <div class="directions">
         <p>You will be given a random number at the start of the game.<br>
-    There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.<br>
-    You will win the game by matching your total score to the computers' randomly selected number. You will lose the game if you go over!<br>
-    The value of each crystal is hidden from you until you click on it.<br>
-    Each time when the game starts, the game will change the values of each crystal.</p>
+            There are four crystals below. By clicking on a crystal you will add a specific amount of points to your
+            total score.<br>
+            You will win the game by matching your total score to the computers' randomly selected number. You will lose
+            the game if you go over!<br>
+            The value of each crystal is hidden from you until you click on it.<br>
+            Each time when the game starts, the game will change the values of each crystal.</p>
     </div>
 
-    <h2>Number to Guess: <div id="number-to-guess"></div></h2>
-    <div id="wins-losses"></div>
+    <div class="row">
+        <div class="column" id="number-to-guess">
+            <h2>Number to guess: </h2>
+        </div>
 
-    <div class="container">
-            <img src="assets/pictures/Screen Shot 2019-06-05 at 8.13.39 AM.png" alt="crystal">
-            <button class="btn">Button</button>
+        <div class="column" id="wins-losses">
+            <row>
+                <h2>Wins:  <span id="win"></span></h2>
+            </row>
+            <row>
+                <h2>Losses: <span id="loss"></span></h2>
+            </row>
+        </div>
+
+    </div>
+    <div class="wrapper">
+    <div class="row">
+        <div class="col-md-12">
+
+            <div id="crystal-image"></div>
+        </div>
+    </div>
+    </div>
+    <div class="row">
+        <div id="total-score"><h2>Total Score: </h2></div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Script -->
+    <script src="assets/main.js"></script>
+    <!-- Script -->
     
-            <img src="assets/pictures/Screen Shot 2019-06-05 at 8.13.39 AM.png" alt="crystal">
-            <button class="btn">Button</button>
-            
-            <img src="assets/pictures/Screen Shot 2019-06-05 at 8.13.39 AM.png" alt="crystal">
-            <button class="btn">Button</button>
-            
-            <img src="assets/pictures/Screen Shot 2019-06-05 at 8.13.39 AM.png" alt="crystal">
-            <button class="btn">Button</button>
-
-    </div>
-
-    <h2>Total Score: <div id="total-score"></div></h2>
-
-
-
-
-    <!-- <script type="text/javascript">
-
-        
-      
-    </script> -->
 </body>
+
 </html>
