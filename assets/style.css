@@ -23,30 +23,45 @@ h1{
     background: palevioletred;
     border: solid 1px black;
 }
-  #wins-losses{
+#wins-losses{
     margin: 5px 5px 5px 5px;
     border: solid 1px black;
     background: lightblue;
       height: 150px;
       width: 200px;
   }
-  #total-score{
-    margin: 5px 5px 5px 20px;
-    background-color: aqua;
-    border: solid 1px black;
-    height:150px;
-    width: 300px;
+#total-score{
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    margin-left: 30%;
   }
-  #computer-guess{
+#total{
     margin: 5px 5px 5px 20px;
     border: solid 1px black;  
     background: tan;
     height: 150px;
     width:300px;
   }
-  #number-to-guess{ 
+#computer-guess{
+    margin: 5px 5px 5px 20px;
+    border: solid 1px black;  
+    background: tan;
+    height: 150px;
+    width:300px;
+  }
+#number-to-guess{ 
     font-weight: bold;
     font-size: 40px;
     text-align: center;
     margin-left: 30%;
+  }
+.crystal-button{
+      display: inline;
+  }
+.crystal-img{
+      height: 150px;
+      width: 125px;
+      border: solid 1px black;
+      margin-left: 5px;
   }
